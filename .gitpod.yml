@@ -1,4 +1,8 @@
-
+tasks:
+  - init: |
+      sudo apt-get update
+      sudo apt-get install -y awscli
+      aws --version
 vscode:
   extensions:
     - 42Crunch.vscode-openapi
